@@ -1,12 +1,27 @@
 {
   "name": "cse-341-project2",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "my second project",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arielsuarez79/cse-341-project2.git"
+  },
+  "author": "Arnaldo Suarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arielsuarez79/cse-341-project2/issues"
+  },
+  "homepage": "https://github.com/arielsuarez79/cse-341-project2#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongodb": "^6.9.0",
+    "swagger-autogen": "^2.23.7",
+    "swagger-ui-express": "^5.0.1"
+  }
 }
